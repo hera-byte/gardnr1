@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title><ion-icon size ='large'name = 'flower'></ion-icon></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card (click)="dismiss()">
+    <span *ngIf="card.img==null">{{card.id}}</span>
+    <ion-img *ngIf="card.img!=null" [src]="'assets/'+card.img"></ion-img>
+  </ion-card>
+</ion-content>

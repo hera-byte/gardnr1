@@ -1,0 +1,7 @@
+{
+  "name": "gardn",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
